@@ -20,7 +20,7 @@ test:
 #	python -m pytest -vv --pdb --maxfail=4  # drop to PDB for first three failures
 
 format:
-	black hello.py
+	black *.py
 
 lint:
 	pylint --disable=R,C hello.py
